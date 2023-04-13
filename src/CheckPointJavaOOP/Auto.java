@@ -1,3 +1,5 @@
+package CheckPointJavaOOP;
+
 public class Auto {
     private String marca;
     private String modello;
@@ -38,7 +40,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "CheckPointJavaOOP.Auto{" +
                 "marca='" + marca + '\'' +
                 ", modello='" + modello + '\'' +
                 ", prezzo=" + prezzo +

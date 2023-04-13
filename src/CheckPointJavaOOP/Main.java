@@ -1,3 +1,5 @@
+package CheckPointJavaOOP;
+
 public class Main {
     public static void main(String[] args) {
         Auto clio = new Auto("Renault", "Clio");
