@@ -1,6 +1,6 @@
 package CheckPointJavaOOP;
 
-public class Auto {
+class Auto {
     private String marca;
     private String modello;
     private double prezzo;

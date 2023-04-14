@@ -1,0 +1,30 @@
+CHECKPOINT 14/04/2023
+1) Definire una classe "Auto" che abbia i seguenti attributi privati:
+- Marca (“Audi”, “Lamborghini”, “Ferrari”, “Mercedes”)
+- Modello
+- Prezzo
+● Implementare il costruttore completo
+● Implementare i relativi metodi di getter e setter
+● Implementare il metodo toString() per mostrare in output le info relative
+all’istanza della classe.
+2) Progettare una classe Concessionaria con i seguenti attributi:
+- Lista di auto presenti
+● Implementare un costruttore con l’unico attributo presente nella classe ed il
+costruttore di default.
+● Implementare getter e setter.
+● Realizzare un metodo salvaSuFile(String path) per salvare su file l'insieme di
+auto presenti nella concessionaria.
+● Realizzare un metodo caricaDaFile(String path) che carichi da file le auto
+presenti nella concessionaria e le assegni all’attributo dell’istanza.
+● Realizzare un metodo che stampi tutte le auto presenti nella concessionaria.
+3) Creare una classe Main nella quale:
+● Istanziare 3 oggetti di tipo Auto.
+● Istanziare un oggetto Concessionaria e aggiungere le auto create
+● Salvare le auto presenti nella concessionaria sul file “listaAuto.txt”.
+● Stampare le auto presenti nella concessionaria.
+● Istanziare un oggetto newConcessionaria usando il costruttore di default
+● Caricare le auto dal file “listaAuto.txt”
+● Stampare le auto di newConcessionaria verificando che siano gli stessi di
+concessionaria
+● Utilizzando gli stream, filtrare le auto in base alla marca(escludendone una) e
+ordinarle in base al prezzo

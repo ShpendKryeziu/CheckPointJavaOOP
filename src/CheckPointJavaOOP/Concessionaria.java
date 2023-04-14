@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Concessionaria {
+class Concessionaria {
     private String nomeConcessionaria;
     private List<Auto> listinoAuto = new ArrayList<>();
 
